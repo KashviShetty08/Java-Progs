@@ -71,7 +71,7 @@ public class LibraryStack {
      case 3:
          int popped = st.pop();
          if (popped != -1)
-             System.out.println("📤 Book popped: " + popped);
+             System.out.println(" Book popped: " + popped);
          break;
 
      case 4:
@@ -99,11 +99,11 @@ public class LibraryStack {
  }
 } while(option != 7);
 
-sc.close();
-}
+sc.close();}
 
 		
 		
 	}
+
 
 
